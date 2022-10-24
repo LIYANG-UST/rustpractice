@@ -24,6 +24,17 @@ pub fn print_base_chartype() {
 }
 
 
+pub fn base_booltype() {
+    let _f: bool = false;
+
+    let t = true;
+
+    if !t {
+        println!("Success!");
+    }
+}
+
+
 fn print_char(c : char) {
     println!("Print Char: {}", c);
 }
