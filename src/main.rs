@@ -1,6 +1,8 @@
 mod base_types;
+mod pattern_match;
 
 use base_types::*;
+use pattern_match::*;
 
 fn greet_world() {
     let southern_germany = "Grüß Gott";
@@ -26,6 +28,9 @@ fn main() {
     base_chartype_1();
 
     print_base_chartype();
+
+    value_in_cents(Coin::Penny);
+    value_in_cents(Coin::Dime);
 
     println!("\n----- Main Function Finished -----\n");
 }
